@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./table.css">
+</head>
+<body>
+    <table border="2px solid black">
+        <tr>
+            <th>countries</th>
+            <th>capital</th>
+            <th>cities</th>
+        </tr>
+        <tr>
+            <td>Nigeria</td>
+            <td>Abuja</td>
+            <td>Lagos</td>
+        </tr>
+        <tr>
+            <td>Ghana</td>
+            <td>Accra</td>
+            <td>komasi</td>
+        </tr>
+        <tr>
+            <td>Senegal</td>
+            <td>Dakar</td>
+            <td>unknown</td>
+        </tr>
+    </table>
+    <br>
+    <form>
+        <div>
+            <label for="name">
+                Name
+                <input type="text" placeholder="enter your name" required autocomplete="additional-name">
+            </label>
+        </div>
+        <div>
+            <label for="password">
+                password
+                <input type="password" placeholder="enter your password" required maxlength="6">
+            </label>
+        </div>
+        <div>
+            <label for="quest">
+                city
+                <input type="radio" value="city" id="mch" name="city">manchester
+                <input type="radio" value="city" id="lvp" name="city">liverpool
+                <input type="radio" value="city" id="std" name="city">stanford
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="quest">
+                city
+                <input type="checkbox" value="city" id="mch" name="city">manchester
+                <input type="checkbox" value="city" id="lvp" name="city">liverpool
+                <input type="checkbox" value="city" id="std" name="city">stanford
+            </label>
+        </div>
+
+        <br>
+        team for the Euro's 2024
+        <select name="" id="">
+            <option value="">England</option>
+            <option value="">Spain</option>
+            <option value="">Germany</option>
+        </select>
+        <br>
+        <button type="submit">login</button>
+    </form>
+</body>
+</html>

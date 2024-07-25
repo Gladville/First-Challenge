@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(to right, rgb(146, 224, 93), rgb(66, 164, 221)) ;
+}
+
+h1{
+    font-style: italic;
+    margin-bottom: 4%;
+    border-left: Solid rgb(66, 164, 221);
+    padding-left: 0.2em;
+    padding-top: 0.2em;
+    padding-bottom:0.2em ;
+   border-left-width: 4px;
+}
+    
+
+
+.center{
+    background-color: #fff;
+    position: absolute;
+top: 15%;
+left: 40%;
+padding: 2.5em 2em 2.5em 2.5em ;
+border-radius: 10px;
+}
+
+input{
+    
+    margin-top: 16%;
+    border-radius: 7px;
+    border: solid black;    
+    padding: 0.7em 6em 0.7em 0.9em;
+       
+}
+
+.submit{
+    color: #fff;
+    padding: 0.7em 3em ;
+  background-color:  rgb(34, 151, 219);
+     border: none;
+}

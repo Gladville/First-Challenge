@@ -1,0 +1,56 @@
+body{
+    background: black;  
+}
+
+.form{
+    background: rgb(23, 25, 49);
+    color: #fff;
+position: absolute;
+top: 15%;
+left: 40%;
+padding: 3em 1em 2em 1em ;
+border-radius: 10px;
+}
+
+
+.title{
+color: #fff;
+font-size: 30px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seri
+
+
+}
+
+.subtitle{
+    color: #fff;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seri
+}
+
+.input{
+    background: rgb(58, 59, 81);
+    margin-top: 10%;
+    border-radius: 7px; 
+    padding: 0.9em 2.4em  ;
+    border: none;
+       
+}
+
+#firstname{
+    margin-top: 5%;   
+}
+
+.submit{
+    background: rgb(13, 134, 232);
+    color: #fff;
+    margin-top: 13%;
+    border-radius: 7px;
+    border: none; 
+    padding: 0.9em  6.9em ;
+    
+
+}
+
+

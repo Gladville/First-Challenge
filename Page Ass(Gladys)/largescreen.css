@@ -1,0 +1,144 @@
+header{
+    background-color:rgb(1, 2, 23);
+    
+}
+
+.logo-img{
+    display: flex;
+    flex: 1;
+   width: 100px;
+   height: 20px;
+    margin-top: 30px;    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    margin: 20px; 
+}
+
+.nav-items{
+    display: flex;
+    flex: 1;
+    margin-left: 80vh;
+    justify-content: space-around;
+   height: 20vh;  
+   list-style: none;         
+}
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+}
+
+#btn-nav{
+    background-color: transparent;
+    color: #fff;
+    border: solid #fff;
+    padding: 0.4em 2em;
+    border-width: 1px
+
+}
+
+.container{
+    margin: 40px;
+    display:flex;
+    flex: 2;
+    justify-content: space-evenly;
+    color:#fff;
+    font-size: 30px;
+    
+}
+
+.product{
+    width: 500px;
+    height: 350px ;
+   padding-left: 70px;
+   padding-right: 70px;
+}
+
+.boost{
+    position: relative;
+    bottom: 60px;
+    margin-top:none;
+   margin-left: 30px ;
+   margin-right:20px ;
+   
+}
+.boost h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boost p{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.email-us{
+    background-color: #fff;
+   margin-right: 180px;
+   font-size: 3px;
+   border: solid #fff;
+   border-width: 5px;
+   padding: 4px 1px;
+   
+}
+.mail{
+    position: relative;
+    width: 15px;
+    
+}
+.email{
+    padding: 1px 10px;
+    border: none;
+    font-size: 10px;
+}
+.btn-boost{
+    position: relative;
+    right: 30px;
+    background-color: rgb(120, 73, 73);
+    color: #fff;
+    border: solid #fff;
+    border-width: 5px;
+    padding:  5px 5px;
+    font-size: 10px; 
+}
+
+ .connect h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.connect span{
+    font-size: 50px;
+    display: flex;
+    justify-content: center; 
+}
+
+.ttable{
+    margin: auto;
+}
+.thead{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tdata td{
+padding: 20px;  
+}
+
+.exp-img img{
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.simp h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+

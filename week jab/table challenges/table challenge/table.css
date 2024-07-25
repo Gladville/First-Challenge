@@ -1,0 +1,43 @@
+#myTable{
+    background: rgb(126, 252, 252);
+    border-collapse: collapse;
+    color: red;
+    font-style:italic;
+    text-align: center;   
+}
+
+h1{
+    font-style: italic;
+}
+
+hr{
+    border: solid black;
+border-style:outset;
+}
+
+#myTable th, #myTable td{
+    border: solid #fff;
+}
+
+#myTable td{
+    color: black;
+}
+
+#myTable caption{
+    color: black;
+   position:absolute;
+   top:62%;
+   left:7em
+
+   
+    
+}
+
+ tr:nth-child(3) td:nth-child(4) {
+    background-color: #91b9de;
+}
+
+td:nth-of-type(3){
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
